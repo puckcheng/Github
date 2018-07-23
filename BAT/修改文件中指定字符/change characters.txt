@@ -1,0 +1,11 @@
+ping 127.0.0.1 -n 2 >nul
+SetLocal EnableDelayedExpansion
+
+    For /F "Usebackq Delims=" %%j In ("%~dpn1.vpy") Do (
+        Set Str=%%j
+        Echo !Str:\=\\!>>PreFlow.vpy
+    )
+    Del "%~dpn1.vpy" >nul
+
+SetLocal DisableDelayedExpansion
+ping 127.0.0.1 -n 2 >nul

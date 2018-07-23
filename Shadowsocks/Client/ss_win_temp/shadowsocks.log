@@ -1,0 +1,140 @@
+[2017-08-04 10:18:00] Shadowsocks started
+[2017-08-04 10:48:19] Shadowsocks started
+[2017-08-04 10:49:17] Shadowsocks started
+[2017-08-04 10:49:39] Shadowsocks started
+[2017-08-04 10:50:16] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:50:16] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:50:53] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:51:58] Shadowsocks started
+[2017-08-04 10:52:54] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:52:56] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:53:41] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:53:41] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:53:43] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:53:45] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:53:45] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:53:50] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:53:52] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:53:54] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:53:56] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:53:56] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:53:56] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:53:56] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:53:56] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:53:56] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:53:58] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:00] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:00] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:03] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:03] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:03] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:03] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:03] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:09] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:09] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:09] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:09] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:09] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:09] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:09] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:09] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:12] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:58] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:54:58] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:55:00] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:55:00] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:55:00] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:55:04] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:55:05] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:55:05] Japan (172.104.85.23:8000) timed out
+[2017-08-04 10:57:50] Shadowsocks started
+[2017-08-11 16:13:15] Shadowsocks started
+[2017-08-11 16:13:18] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 在 WebClient 请求期间发生异常。 ---> System.IO.IOException: 无法从传输连接中读取数据: 连接已关闭。
+   在 System.Net.ConnectStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.WebClient.DownloadBitsReadCallbackState(DownloadBitsState state, IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2017-08-11 16:13:18] Shadowsocks started
+[2017-08-11 16:16:18] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:16:18] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:16:19] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:16:19] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:16:19] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:16:19] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:16:19] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:16:19] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:16:19] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:16:19] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:16:57] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:17:12] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:17:12] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:17:17] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:17:17] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:17:21] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:17:21] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:17:24] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:17:24] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:18:39] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:19:20] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:19:25] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:19:33] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:20:04] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:20:09] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:20:10] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:20:10] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:20:10] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:20:10] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:20:10] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:20:15] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:20:15] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:20:15] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:20:27] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:21:26] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:21:39] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:23:25] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:24:08] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:26:23] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:26:25] Japan (172.104.85.23:8000) timed out
+[2017-08-11 16:26:28] Shadowsocks started
+[2017-08-12 11:31:34] Shadowsocks started
+[2017-08-12 11:33:40] Shadowsocks started
+[2017-10-17 19:16:40] Shadowsocks started
+[2017-10-17 19:16:55] System.Net.WebException: 在 WebClient 请求期间发生异常。 ---> System.IO.IOException: 从传输流收到意外的 EOF 或 0 个字节。
+   在 System.Net.ConnectStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.WebClient.DownloadBitsReadCallbackState(DownloadBitsState state, IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+[2017-10-17 19:16:55] Shadowsocks started
+[2017-10-17 19:17:13] Shadowsocks started
+[2017-10-17 19:17:37] Shadowsocks started
+[2017-10-17 19:41:31] Shadowsocks started
+[2017-10-17 19:41:35] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2017-10-17 19:41:37] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2017-10-17 19:41:37] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2017-10-17 19:41:50] Shadowsocks started
+[2017-10-17 19:42:41] Shadowsocks started
+[2017-10-17 19:43:16] Japan (172.104.85.23:6666) timed out
+[2017-10-17 19:43:18] Japan (172.104.85.23:6666) timed out
+[2017-10-17 19:43:24] Shadowsocks started
+[2017-10-17 19:49:20] Shadowsocks started
+[2017-10-17 20:21:44] Shadowsocks started
+[2017-10-17 20:22:00] Shadowsocks started
+[2017-10-17 22:12:42] Shadowsocks started
+[2017-10-17 22:14:46] Shadowsocks started
