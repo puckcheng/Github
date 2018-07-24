@@ -30,7 +30,7 @@ set name=!name:~0,8!
 
 echo import vapoursynth as vs > "!name!.vpy"
 echo import sys >> "!name!.vpy"
-echo core=vs.get_core(accept_lowercase=True,threads=4^) >> "!name!.vpy"
+echo core=vs.get_core(accept_lowercase=True,threads=1^) >> "!name!.vpy"
 echo core.max_cache_size=8000 >> "!name!.vpy"
 echo source=r'%~dp1!name!.MP4' >> "!name!.vpy"
 echo src=core.lsmas.LWLibavSource(source,threads=1^) >> "!name!.vpy"
@@ -54,17 +54,17 @@ Echo Building File Index......
 FOR /F %%i in (D:\Media\TEMP\frames.txt) DO set tframes=%%i
 
 %vspipe% --y4m "%~1.vpy" - | %x265% ^
---y4m --preset slow --frame-threads 8 ^
+--y4m --preset slow --frame-threads 4 ^
 --frames %tframes% --output-depth 10 --crf 18 ^
 --qcomp 0.65 --merange 44 --aq-strength 0.8 ^
 --range full --colorprim bt709 --transfer bt709 --colormatrix bt709 ^
 --output "D:\Media\TEMP\%~1.tmp" -
 
-::ping 127.0.0.1 -n 3 >nul
+ping 127.0.0.1 -n 2 >nul
 
 %ffmpeg% -fflags +genpts -i "D:\Media\TEMP\%~1.tmp" -i "%~1.MP4" -map 0:v -map 1:a -vcodec copy  -acodec copy "%~1_arc.mp4"
 
-::ping 127.0.0.1 -n 1 >nul
+ping 127.0.0.1 -n 1 >nul
 
 del "%~1.vpy"
 del "%~1.MP4.lwi"
