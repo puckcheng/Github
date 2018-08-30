@@ -54,7 +54,7 @@ Echo Building File Index......
 FOR /F %%i in (D:\Media\TEMP\frames.txt) DO set tframes=%%i
 
 %vspipe% --y4m "%~1.vpy" - | %x265% ^
---y4m --preset slow --frame-threads 4 ^
+--y4m --preset slow --pools 14 --frame-threads 4 ^
 --frames %tframes% --output-depth 10 --crf 18 ^
 --qcomp 0.65 --merange 44 --aq-strength 0.8 ^
 --range full --colorprim bt709 --transfer bt709 --colormatrix bt709 ^
